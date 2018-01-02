@@ -47,10 +47,14 @@
     "linux": {
       "target": [
         "AppImage",
-        "deb"
+        "deb",
+        "snap"
       ],
       "category": "Finance",
       "icon": "build/icons/"
+    },
+    "snap": {
+      "plugs": ["default", "desktop"]
     }
   }
 }
